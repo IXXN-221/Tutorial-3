@@ -1,6 +1,10 @@
+<<<<<<< Updated upstream
 /*Mobile Screen*/
 @media only screen and (max-width: 600px){
 
+=======
+@media only screen and (min-width: 600px){
+>>>>>>> Stashed changes
 html, body{
     margin: 0;
     padding: 0;
@@ -11,21 +15,49 @@ html, body{
     max-width: 500px;
     margin: 50px auto;
     background-color: white;
+<<<<<<< Updated upstream
+=======
+    justify-content: center;
+>>>>>>> Stashed changes
     text-align: center;
 }
 
+.sidebar-1 {
+    order: 1;
+    margin-right: 20px;
+
+}
+
+.main-content {
+    order: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sidebar-2 {
+    order: 3;
+}
 .content, .flash-cards, .table{
     max-width: 1200px;
     background-color: white;
     padding: 20px;
     margin: 0 auto;
+<<<<<<< Updated upstream
     text-align: center;
+=======
+    display: flex;
+}
+
+.flash-cards {
+    justify-content: space-between;
+>>>>>>> Stashed changes
 }
 
 .card{
     padding: 25px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    margin: 20px;
 }
 
 .card-1{
@@ -44,24 +76,38 @@ html, body{
     max-width: 850px;
     background-color: antiquewhite;
     margin-bottom: 50px;
+    
 }
 
 .main-page{
     background-color: rgb(113, 243, 182);
     padding: 15px;
+<<<<<<< Updated upstream
+=======
+    width: 50%;
+>>>>>>> Stashed changes
     text-align: center;
 }
 
 .secondary-page{
+<<<<<<< Updated upstream
     display: flex;
     flex-direction:column;
     align-items: stretch;
     text-align: center;
     
+=======
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
 .section-1{
     background-color: rgb(135, 166, 250);
+    
 }
 
 .section-2{
@@ -71,8 +117,11 @@ html, body{
 
 .section-3{
     background-color: rgb(74, 91, 139);
+
+}
 }
 
+<<<<<<< Updated upstream
 
 /*Desktop Screen*/
 
@@ -84,6 +133,17 @@ html, body{
     padding: 0;
     background-color: antiquewhite;
 }
+=======
+/* Mobile screens */
+@media only screen and (max-width: 600px) {
+
+
+    html, body{
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+    }
+>>>>>>> Stashed changes
     
     .header{
         max-width: 500px;
@@ -91,14 +151,32 @@ html, body{
         background-color: white;
         justify-content: center;
         text-align: center;
+<<<<<<< Updated upstream
        }
     
+=======
+    }
+    
+    .sidebar-1 {
+        order: 1;
+        margin: 10px;
+    }
+    
+    .main-content {
+        order: 2;
+    }
+    
+    .sidebar-2 {
+        order: 3;
+    }
+>>>>>>> Stashed changes
     .content, .flash-cards, .table{
         max-width: 1200px;
         background-color: white;
         padding: 20px;
         margin: 0 auto;
         display: flex;
+<<<<<<< Updated upstream
     }
 
     .sidebar-1{
@@ -127,11 +205,24 @@ html, body{
         justify-content: space-evenly;
     }
 
+=======
+        flex-direction: column;
+    }
+    
+    .flash-cards {
+        justify-content: space-between;
+    }
+    
+>>>>>>> Stashed changes
     .card{
         padding: 25px;
         box-sizing: border-box;
         margin-bottom: 20px;
+<<<<<<< Updated upstream
         margin: 50px;
+=======
+        margin: 20px;
+>>>>>>> Stashed changes
     }
     
     .card-1{
@@ -150,11 +241,17 @@ html, body{
         max-width: 850px;
         background-color: antiquewhite;
         margin-bottom: 50px;
+<<<<<<< Updated upstream
+=======
+        text-align: center;
+        
+>>>>>>> Stashed changes
     }
     
     .main-page{
         background-color: rgb(113, 243, 182);
         padding: 15px;
+<<<<<<< Updated upstream
         width: 50%;
     }
     
@@ -164,10 +261,24 @@ html, body{
         flex-direction:column;
         align-items: stretch;
         text-align: center;
+=======
+        text-align: center;
+    }
+    
+    .secondary-page{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-emphasis: center;
+>>>>>>> Stashed changes
     }
     
     .section-1{
         background-color: rgb(135, 166, 250);
+<<<<<<< Updated upstream
+=======
+        
+>>>>>>> Stashed changes
     }
     
     .section-2{
@@ -177,6 +288,12 @@ html, body{
     
     .section-3{
         background-color: rgb(74, 91, 139);
+<<<<<<< Updated upstream
     }
     
     }
+=======
+    
+    }
+}
+>>>>>>> Stashed changes
