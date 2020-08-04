@@ -4,11 +4,24 @@ html, body{
     background-color: antiquewhite;
 }
 
+@media only screen and (max-width: 1200px) {
+    html, body {
+      background-color: #b5ecee;
+    }
+  }
+
 .header{
     max-width: 500px;
     margin: 50px auto;
     background-color: white;
 }
+
+@media only screen and (max-width: 700px) {
+  .header {
+    background-color: #d4c070;
+  }
+}
+
 
 .content, .flash-cards, .table{
     max-width: 1200px;
@@ -35,6 +48,18 @@ html, body{
     background-color: aqua;
 }
 
+@media only screen and (min-width: 700px){
+    .card-1 {
+        width: 40.9%;
+    }
+        .card-2 {
+        width: 35.5%;
+    }
+        .card-3 {
+        width: 45.2%;
+    }
+}
+
 .table{
     max-width: 850px;
     background-color: antiquewhite;
@@ -52,6 +77,9 @@ html, body{
 
 .section-1{
     background-color: rgb(135, 166, 250);
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
 }
 
 .section-2{
